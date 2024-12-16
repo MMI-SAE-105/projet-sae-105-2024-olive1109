@@ -1,0 +1,26 @@
+:root {
+    /* color */
+    --blanc: #ffffff;
+    --bleu: #2411d4;
+    --gris: #c0c0c0;
+    --noir: #000000;
+    --rouge: #ff0000;
+    --violet: #7251bf;
+
+      /* number */
+      --font-font-xxs: 0.75rem;
+      --font-font-xs: 0.9375rem;
+      --font-font-s: 1.125rem;
+      --font-font-m: 1.5rem;
+      --font-font-l: 2.25rem;
+      --font-font-xl: 2.5rem;
+      --font-font-xxl: 2.8125rem;
+      
+      /* string */
+      --font-familly-body: Raleway;
+      --font-familly-header: Montserrat;
+      --font-familly-logo: Monoton;
+      --weigth-bold: Bold;
+      --weigth-extra-bold: ExtraBold;
+      --weigth-regular: Regular;
+  }
