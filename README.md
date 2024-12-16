@@ -3,8 +3,8 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
-- URL du site :
-- URL FIGMA :
+- NOM : Ahuir
+- PRÉNOM : Noëlie
+- GROUPE : A1
+- URL du site : http://le-cinario.noelie-ahuir.fr
+- URL FIGMA : https://www.figma.com/design/zhJREmtnaZch4mhTyQPFfY/Maquettes-projet-individuel-%E2%80%94-pr%C3%A9nom-NOM-(Copy)?node-id=3701-1068&t=hhrbRZDlzCQcNRiQ-1
