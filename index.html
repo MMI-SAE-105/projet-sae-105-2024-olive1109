@@ -12,7 +12,8 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/asset/favicon/apple-touch-icon.png" />
     <link rel="manifest" href="/asset/favicon/site.webmanifest" />
 
-    <link rel="stylesheet" href="/src/css/style.css" />
+    <link rel="stylesheet" href="/src/css/styles.css" />
+    <script type="module" src="/src/js/script.js"></script>
 
 </head>
 
@@ -21,15 +22,15 @@
         <a href="index.html">
             <img 
             class="header__logo" 
-            src="/asset/icônes/logo.svg" 
+            src="/assets/icônes/logo.svg" 
             alt="logo"
             width="65"
             height="65"
             ></a>
-        <a href="en/index.html" onclick="document.cookie = 
+        <a href="/en/index-en.html" onclick="document.cookie = 
         `nf_lang=fr; path=/ ; SameSite=Strict`">
             <img 
-            src="/asset/icônes/Great Britain.svg" 
+            src="/assets/icônes/Great Britain.svg" 
             alt="logo">
         </a>
         <button
@@ -38,25 +39,25 @@
             aria-expanded="false"
             aria-controls="mainNav"
             >
-            <img src="/asset/icônes/Menu.svg" alt="menu">
+            <img src="/assets/icônes/Menu.svg" alt="menu">
             <span class="menu-btn" aria-hidden="true"></span>
         </button>
         <nav class="header__menu menu" id="mainNav" aria-hidden="true">
             <ul>
                 <li class="menu__item">
-                    <a class="menu__link" href="camera.html">Caméra</a></li>
+                    <a class="menu__link" href="/fr/camera.html">Caméra</a></li>
                 <li class="menu__item">
-                    <a class="menu__link" href="ready-player-one.html">Ready Player One</a></li>
+                    <a class="menu__link" href="/fr/ready-player-one.html">Ready Player One</a></li>
                 <li class="menu__item">
-                    <a class="menu__link" href="james-cameron.html">James Cameron</a></li>
+                    <a class="menu__link" href="/fr/james-cameron.html">James Cameron</a></li>
                 <li class="menu__item">
-                    <a class="menu__link" href="le-film-en-devenir.html">Le FIlm en Devenir</a></li>
+                    <a class="menu__link" href="/fr/le-film-en-devenir.html">Le FIlm en Devenir</a></li>
                 <li class="menu__item">
-                    <a class="menu__link" href="un-jou-une-musique.html">Un jour une musique</a></li>
+                    <a class="menu__link" href="/fr/un-jou-une-musique.html">Un jour une musique</a></li>
                 <li class="menu__item">
-                    <a class="menu__link" href="a-porpos.html">A propos</a></li>
+                    <a class="menu__link" href="/fr/a-porpos.html">A propos</a></li>
                 <li class="menu__item">
-                    <a class="menu__link" href="glossaire.html">Glossaire</a></li>
+                    <a class="menu__link" href="/fr/glossaire.html">Glossaire</a></li>
             </ul>
         </nav>
     </header>
@@ -66,48 +67,48 @@
         <div class="hero hero--home">
             <nav>
                 <ul>
-                    <li class="hero__item"><a class="hero__link" href="actualité.html">Actus<button><img src="/asset/icônes/Documentary.svg" alt="actualité"></button></a></li>
-                    <li class="hero__item"><a class="hero__link" href="films.html">Films<button><img src="/asset/icônes/Film Reel.svg" alt="Films"></button></a></li>
-                    <li class="hero__item"><a class="hero__link" href="realisateur.html">Réalisateurs<button><img src="/asset/icônes/Office Chair.svg" alt="Réalisateur"></button></a></li>
-                    <li class="hero__item"><a class="hero__link" href="musique.html">Musiques<button><img src="/asset/icônes/Music.svg" alt="Musique"></button></a></li>
-                    <li class="hero__item"><a class="hero__link" href="livres.html">Livres<button><img src="/asset/icônes/Book.svg" alt="Livres"></button></a></li>
+                    <li class="hero__item"><a class="hero__link" href="/fr/actualité.html">Actus<button><img src="/assets/icônes/Documentary.svg" alt="actualité"></button></a></li>
+                    <li class="hero__item"><a class="hero__link" href="/fr/films.html">Films<button><img src="/assets/icônes/Film Reel.svg" alt="Films"></button></a></li>
+                    <li class="hero__item"><a class="hero__link" href="/fr/realisateur.html">Réalisateurs<button><img src="/assets/icônes/Office Chair.svg" alt="Réalisateur"></button></a></li>
+                    <li class="hero__item"><a class="hero__link" href="/fr/musique.html">Musiques<button><img src="/assets/icônes/Music.svg" alt="Musique"></button></a></li>
+                    <li class="hero__item"><a class="hero__link" href="/fr/livres.html">Livres<button><img src="/assets/icônes/Book.svg" alt="Livres"></button></a></li>
                 </ul>
             </nav>
-            <img src="/asset/icônes/Cercle icônes.svg" alt="">
+            <img src="/assets/icônes/Cercle icônes.svg" alt="">
         </div>
         <article class="article">
             <img class="article__img" 
-            src="/asset/img/home/cam.jpg" 
+            src="/assets/img/home/cam.jpg" 
             alt="L'image montre un astronaute, vêtu d'une combinaison spatiale usée, tenant un vieil appareil photo à pellicule, également abîmé par le temps. L'arrière-plan est flou, mais on devine la courbure de la Terre vue de l'espace.">
-            <a class="article__title title--link" href="camera.html">
+            <a class="article__title title--link" href="/fr/camera.html">
                 <h2 class="article__title">Une caméra des années 2000 retrouvée !</h2>
             </a>
             <h3 class="article__text">Une caméra du début du 21e siècle a été retrouvée flottant dans l'espace, soulevant des questions sur son origine et son histoire.</h3>
         </article>
         <article class="article">
-            <img class="article__img" src="/asset/img/home/rpo.jpg" alt="L'affiche de Ready Player One montre un jeune homme grimpeant une structure métallique, le dos tourné au spectateur. Il est situé dans une ville futuriste dystopique, sombre et surpeuplée, avec une grande planète ou lune visible dans le ciel nocturne. Le titre du film, "READY PLAYER ONE", est inscrit en lettres stylisées, lumineuses et futuristes, au-dessus du personnage.">
-            <a class="article__title title--link" href="">
+            <img class="article__img" src="/assets/img/home/rpo.jpg" alt="L'affiche de Ready Player One montre un jeune homme grimpeant une structure métallique, le dos tourné au spectateur. Il est situé dans une ville futuriste dystopique, sombre et surpeuplée, avec une grande planète ou lune visible dans le ciel nocturne. Le titre du film, "READY PLAYER ONE", est inscrit en lettres stylisées, lumineuses et futuristes, au-dessus du personnage.">
+            <a class="article__title title--link" href="/fr/ready-player-one.html">
                 <h2 class="article__title">Un remake de Ready Player One de Steven Spielberg ?</h2>
             </a>
             <h3 class="article__text">En 2500, le cinéma interplanétaire s'apprête à redécouvrir "Ready Player One".</h3>
         </article>
         <article class="article">
-            <img class="article__img" src="/asset/img/home/js.jpg" alt="L'image montre un portrait de James Cameron, un homme âgé aux cheveux gris et blancs, portant une barbe et une moustache grisonnantes taillées en pointe. Il est vêtu d'une chemise grise foncée. Son expression est sérieuse, presque grave">
-            <a class="article__title title--link" href="james-cameron.html">
+            <img class="article__img" src="/assets/img/home/js.jpg" alt="L'image montre un portrait de James Cameron, un homme âgé aux cheveux gris et blancs, portant une barbe et une moustache grisonnantes taillées en pointe. Il est vêtu d'une chemise grise foncée. Son expression est sérieuse, presque grave">
+            <a class="article__title title--link" href="/fr/james-cameron.html">
                 <h2 class="article__title">James Cameron : Un Visionnaire Cinématographique du 21e Siècle</h2>
             </a>
             <h3 class="article__text">Alors que nous nous penchons sur l’histoire du cinéma, peu de noms se démarquent aussi fortement que celui de James Cameron.</h3>
         </article>
         <article class="article">
-            <img class="article__img" src="/asset/img/home/lfed.jpg" alt="L'image représente une illustration stylisée d'un cinéma de nuit. Le bâtiment est moderne, avec une façade aux couleurs vives et audacieuses, principalement des teintes turquoise, rouge et orange. Les vitrines du cinéma affichent des affiches de films vintage, ajoutant une touche nostalgique. L'atmosphère générale est nocturne et quelque peu mystérieuse, renforcée par l'éclairage et les reflets sur le sol humide. Le titre "Le Film en Devenir" et le nom de l'artiste, Gérard Leblanc, sont inscrits en bas de l'image. L'ensemble évoque une ambiance rétro-futuriste.">
-            <a class="article__title title--link" href="le-film-en-devenir.html">
+            <img class="article__img" src="/assets/img/home/lfed.jpg" alt="L'image représente une illustration stylisée d'un cinéma de nuit. Le bâtiment est moderne, avec une façade aux couleurs vives et audacieuses, principalement des teintes turquoise, rouge et orange. Les vitrines du cinéma affichent des affiches de films vintage, ajoutant une touche nostalgique. L'atmosphère générale est nocturne et quelque peu mystérieuse, renforcée par l'éclairage et les reflets sur le sol humide. Le titre "Le Film en Devenir" et le nom de l'artiste, Gérard Leblanc, sont inscrits en bas de l'image. L'ensemble évoque une ambiance rétro-futuriste.">
+            <a class="article__title title--link" href="/fr/le-film-en-devenir.html">
                 <h2 class="article__title">Le Film en Devenir de Gérard Leblanc : Un Ouvrage Visionnaire du 21e Siècle</h2>
             </a>
             <h3 class="article__text">En cette année 2500, alors que nous célébrons le 500e anniversaire de la publication de "Le Film en Devenir" de Gérard Leblanc,</h3>
         </article>
         <article class="article">
-            <img class="article__img" src="/asset/img/home/mrpo.jpg" alt="L'image représente une illustration stylisée d'un cinéma de nuit. Le bâtiment est moderne, avec une façade aux couleurs vives et audacieuses, principalement des teintes turquoise, rouge et orange. Les vitrines du cinéma affichent des affiches de films vintage, ajoutant une touche nostalgique. L'atmosphère générale est nocturne et quelque peu mystérieuse, renforcée par l'éclairage et les reflets sur le sol humide. Le titre "Le Film en Devenir" et le nom de l'artiste, Gérard Leblanc, sont inscrits en bas de l'image. L'ensemble évoque une ambiance rétro-futuriste.">
-            <a class="article__title title--link" href="un-jou-une-musique.html">
+            <img class="article__img" src="/assets/img/home/mrpo.jpg" alt="L'image représente une illustration stylisée d'un cinéma de nuit. Le bâtiment est moderne, avec une façade aux couleurs vives et audacieuses, principalement des teintes turquoise, rouge et orange. Les vitrines du cinéma affichent des affiches de films vintage, ajoutant une touche nostalgique. L'atmosphère générale est nocturne et quelque peu mystérieuse, renforcée par l'éclairage et les reflets sur le sol humide. Le titre "Le Film en Devenir" et le nom de l'artiste, Gérard Leblanc, sont inscrits en bas de l'image. L'ensemble évoque une ambiance rétro-futuriste.">
+            <a class="article__title title--link" href="/fr/un-jou-une-musique.html">
                 <h2 class="article__title">Un Jour, Une Musique de Film : La Bande Originale de Ready Player One</h2>
             </a>
             <h3 class="article__text">En cette année 2500, plongeons-nous dans l'histoire fascinante de la bande originale de "Ready Player One”.</h3>
@@ -118,7 +119,7 @@
         <a class="footer__logo logo--link" href="index.html">
             <img 
             class="footer__logo" 
-            src="/asset/icônes/logo.svg" 
+            src="/assets/icônes/logo.svg" 
             alt="logo qui ramène au début de la page"
             width: 60px;
             height: 60px;>
@@ -128,9 +129,9 @@
         <nav class="footer__menu ">
             <h2 class="footer__menu-title">Menu</h2>
             <ul>
-                <li class="footer__menu-link"><a href="/">Acceuil</a></li>
-                <li class="footer__menu-link"><a href="glossaire.html">Glossaire</a></li>
-                <li class="footer__menu-link"><a href="a-porpos.html">A Propos</a></li>
+                <li class="footer__menu-link"><a href="index.html">Acceuil</a></li>
+                <li class="footer__menu-link"><a href="/fr/glossaire.html">Glossaire</a></li>
+                <li class="footer__menu-link"><a href="/fr/a-porpos.html">A Propos</a></li>
             </ul>
         </nav>
 
@@ -138,11 +139,11 @@
             <nav>
                 <h2>Nous suivres</h2>
                     <ul>
-                        <li class="social__items"><a class="social__link" href="https://www.instagram.com"><img class="social__img" src="/asset/icônes/Instagram.svg" alt=""></a></li>
-                        <li class="social__items"><a class="social__link" href="https://discord.com"><img class="social__img" src="/asset/icônes/Discord.svg" alt=""></a></li>
-                        <li class="social__items"><a class="social__link" href="https://www.youtube.com"><img class="social__img" src="/asset/icônes/YouTube.svg" alt=""></a></li>
-                        <li class="social__items"><a class="social__link" href="https://x.com/?lang=fr"><img class="social__img" src="/asset/icônes/Mask group-1.svg" alt=""></a></li>
-                        <li class="social__items"><a class="social__link" href="https://www.facebook.com/?locale=fr_FR"><img class="social__img" src="/asset/icônes/Facebook.svg" alt=""></a></li>
+                        <li class="social__items"><a class="social__link" href="https://www.instagram.com"><img class="social__img" src="/assets/icônes/Instagram.svg" alt=""></a></li>
+                        <li class="social__items"><a class="social__link" href="https://discord.com"><img class="social__img" src="/assets/icônes/Discord.svg" alt=""></a></li>
+                        <li class="social__items"><a class="social__link" href="https://www.youtube.com"><img class="social__img" src="/assets/icônes/YouTube.svg" alt=""></a></li>
+                        <li class="social__items"><a class="social__link" href="https://x.com/?lang=fr"><img class="social__img" src="/assets/icônes/Mask group-1.svg" alt=""></a></li>
+                        <li class="social__items"><a class="social__link" href="https://www.facebook.com/?locale=fr_FR"><img class="social__img" src="/assets/icônes/Facebook.svg" alt=""></a></li>
                     </ul>
             </nav>
         </div>

@@ -15,18 +15,18 @@ Soyez attentifs à l'ordre d'import :
 @import url('https://fonts.googleapis.com/css2?family=Monoton&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* Vendors */
-@import "vendors/normalize.css";
+@import "/src/css/vendors/normalize.css";
 
 /* Utils */
-@import "utils/variables.css";
+@import "/src/css/utils/variables.css";
 
 /* Base */
-@import "base/main.css";
-@import "base/media.css";
+@import "/src/css/base/main.css";
+@import "/src/css/base/media.css";
 
 /* Layout */
-@import "layout/footer.css";
-@import "layout/header.css";
+@import "/src/css/layout/footer.css";
+@import "/src/css/layout/header.css";
 
 /* Components */
-@import "layout/menu.css";
+@import "/src/css/layout/menu.css";
