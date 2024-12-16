@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html">
+            <img 
+            class="header__logo" 
+            src="/asset/icônes/logo.svg" 
+            alt="logo"
+            width="65"
+            height="65"
+            ></a>
+        <a href="en/index.html" onclick="document.cookie = 
+        `nf_lang=en; path=/ ; SameSite=Strict`">
+            <img 
+            src="/asset/icônes/Great Britain.svg" 
+            alt="logo">
+        </a>
+        <button
+            class="header__menu-btn menu-btn"
+            aria-label="menu"
+            aria-expanded="false"
+            aria-controls="mainNav"
+            >
+            <img src="/asset/icônes/Menu.svg" alt="menu">
+            <span class="menu-btn" aria-hidden="true"></span>
+        </button>
+        <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+            <ul>
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/camera.html">Camera</a></li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/ready-player-one.html">Ready Player One</a></li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/james-cameron.html">James Cameron</a></li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/le-film-en-devenir.html">The Film in Becoming</a></li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/un-jou-une-musique.html">One Day One Music</a></li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/a-porpos.html">About</a></li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/glossaire.html">Glossary</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Sign Up</h1>
+
+        <h3 class="title">Not subscribed?</h3>
+        <section class="inscription">
+            <h2 class="inscription__title">Contact Us</h2>
+            <form class="inscription__form" action="/submit-form" method="post">
+                <div class="inscription__form-group">
+                    <label class="inscription__label" for="first-name">First Name:</label>
+                    <input class="inscription__input" type="text" id="first-name" name="first-name" required>
+                </div>
+                <div class="inscription__form-group">
+                    <label class="inscription__label" for="last-name">Last Name:</label>
+                    <input class="inscription__input" type="text" id="last-name" name="last-name" required>
+                </div>
+                <div class="inscription__form-group">
+                    <label class="inscription__label" for="email">Email Address:</label>
+                    <input class="inscription__input" type="email" id="email" name="email" required>
+                </div>
+                <div class="inscription__form-group">
+                    <label class="inscription__label" for="objets">Chip Number:</label>
+                    <input class="inscription__input" type="text" id="objets" name="objets">
+                </div>
+                <div class="container">
+                    <button class="inscription__button button" type="submit">
+                        <span class="button__int int">
+                            <img class="int__arrow" src="/assets/icônes/Vector.svg" alt="">
+                            <p class="int__text">Sign Up</p>
+                        </span>
+                    </button>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
