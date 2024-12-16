@@ -22,11 +22,9 @@ Soyez attentifs à l'ordre d'import :
 
 /* Base */
 @import "/src/css/base/main.css";
-@import "/src/css/base/media.css";
+@import "/src/css/base/medias.css";
 
 /* Layout */
-@import "/src/css/layout/footer.css";
-@import "/src/css/layout/header.css";
 
 /* Components */
-@import "/src/css/layout/menu.css";
+@import "/src/css/compenents/articles.css";
