@@ -3,6 +3,7 @@
     width: 390px;
     flex-direction: column;
     margin: 20px;
+    margin-top: 40px;
 }
 
 .article__text{
