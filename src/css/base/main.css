@@ -28,8 +28,7 @@ h2{
 h3{
     font-family: var(--font-familly-body, Raleway);
     font-size: var(--font-font-XS);
-    font-weight: var(--weigth-bold, Bold);
-    font-weight: 700;
+    font-weight: var(--weigth-regular, Regular);
     line-height: var(--font-font-XS);
 }
 
