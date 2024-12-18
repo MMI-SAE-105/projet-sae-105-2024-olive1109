@@ -1,0 +1,22 @@
+.header{
+    background-color: var(--bleu);
+    display: flex;
+    align-items: center;
+}
+
+.header__start a,
+.header__end button {
+  position: relative;
+  z-index: 20;
+}
+
+.header__end {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 20px;
+}
+
+.header__logo {
+  display: block;
+}
