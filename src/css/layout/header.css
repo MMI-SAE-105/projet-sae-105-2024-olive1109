@@ -2,6 +2,7 @@
     background-color: var(--bleu);
     display: flex;
     align-items: center;
+    padding: 20px;
 }
 
 .header__start a,

@@ -1,0 +1,44 @@
+.footer{
+    background-color: var(--bleu);
+}
+
+.footer__header{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 20px 10px 20px;
+}
+
+.footer__header__logo{
+    width: 60px;
+    height: 60px;
+}
+
+.footer__title{
+    color: var(--blanc);
+}
+
+.footer__menu{
+    padding: 10px 20px;
+}
+
+.footer__menu-link{
+    color: var(--blanc);
+    margin-top: 18px;
+}
+
+.footer__social{
+    padding: 10px 20px;
+}
+
+.social__list{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.footer__text{
+    color: var(--blanc);
+    padding: 10px 20px;
+}
