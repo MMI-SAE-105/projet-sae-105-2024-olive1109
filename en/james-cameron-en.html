@@ -15,48 +15,56 @@
 
 </head>
 <body>
-    <header>
-        <a href="index-en.html">
-            <img 
-            class="header__logo" 
-            src="/assets/icônes/logo.svg" 
-            alt="logo"
-            width="65"
-            height="65"
-            ></a>
-        <a href="../index.html">
-            <img 
-            src="/assets/icônes/France.svg" 
-            alt="logo">
-        </a>
-        <button
-            class="header__menu-btn menu-btn"
-            aria-label="menu"
-            aria-expanded="false"
-            aria-controls="mainNav"
-            >
-            <img src="/assets/icônes/Menu.svg" alt="menu">
-            <span class="menu-btn" aria-hidden="true"></span>
-        </button>
-        <nav class="header__menu menu" id="mainNav" aria-hidden="true">
-            <ul>
-                <li class="menu__item">
-                    <a class="menu__link" href="camera-en.html">Camera</a></li>
-                <li class="menu__item">
-                    <a class="menu__link" href="ready-player-one-en.html">Ready Player One</a></li>
-                <li class="menu__item">
-                    <a class="menu__link" href="james-cameron-en.html">James Cameron</a></li>
-                <li class="menu__item">
-                    <a class="menu__link" href="le-film-en-devenir-en.html">The Becoming Film</a></li>
-                <li class="menu__item">
-                    <a class="menu__link" href="un-jou-une-musique-en.html">One Day One Music</a></li>
-                <li class="menu__item">
-                    <a class="menu__link" href="a-porpos-en.html">About</a></li>
-                <li class="menu__item">
-                    <a class="menu__link" href="glossaire-en.html">Glossary</a></li>
-            </ul>
-        </nav>
-        
+    <header class="header">
+        <div class="header__start">
+            <a href="index.html">
+                <img 
+                class="header__logo" 
+                src="/assets/icons/logo.svg" 
+                alt="logo"
+                width="65"
+                height="65">
+            </a>
+        </div>
+        <div class="header__end">
+            <a class="language-btn" href="../index.html">
+                <span><img src="/assets/icônes/France.svg" alt="français"></span>
+            </a>
+            
+            <button
+                class="header__menu-btn menu-btn"
+                aria-label="menu"
+                aria-expanded="false"
+                aria-controls="mainNav">
+                <span class="menu-btn__img"><img src="/assets/icons/Menu.svg" alt="menu"></span>
+            </button>
+    
+            <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+                <ul class="menu__list list-unstyled">
+                    <li class="menu__item">
+                        <a class="menu__link" href="/fr/camera.html">Camera</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="/fr/ready-player-one.html">Ready Player One</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="/fr/james-cameron.html">James Cameron</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="/fr/le-film-en-devenir.html">The Film in the Making</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="/fr/un-jou-une-musique.html">One Day One Music</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="/fr/a-porpos.html">About</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="/fr/glossaire.html">Glossary</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
     
     <main class="sujet">
