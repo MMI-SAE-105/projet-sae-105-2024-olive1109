@@ -3,7 +3,6 @@
   background-color: var(--bleu);
   display: flex;
   align-items: center;
-  padding: 20px;
 }
 
 .header__start a,
@@ -17,8 +16,10 @@
   align-items: center;
   position: absolute;
   right: 0px;
+  padding: 20px;
 }
 
 .header__logo {
   display: block;
+  padding: 20px;
 }

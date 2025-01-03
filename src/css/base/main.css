@@ -11,9 +11,9 @@ h1{
     color: var(--Blanc, #FFF);
     text-align: center;
     font-family: var(--font-familly-logo, Monoton);
-    font-size: var(--font-font-XXL, 45px); 
+    font-size: var(--font-font-XL, 40px); 
     font-weight: var(--weigth-regular, Regular);
-    line-height: var(--font-font-XXL, 45px);
+    line-height: var(--font-font-XL, 40px);
     text-transform: uppercase;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -25,9 +25,8 @@ h2{
     font-family: var(--font-familly-body, Raleway);
     font-size: var(--font-font-S, 18px);
     font-weight: var(--weigth-bold, Bold);
-    font-weight: 700;
     line-height: var(--font-font-S, 18px);
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 10px;
     margin-left: 20px;
     margin-right: 20px;
@@ -38,8 +37,15 @@ h3{
     font-size: var(--font-font-XS);
     font-weight: var(--weigth-regular, Regular);
     line-height: var(--font-font-XS);
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h4{
+    font-family: var(--font-familly-body, Raleway);
+    font-size: var(--font-font-S, 18px);
+    font-weight: var(--weigth-regular);
+    line-height: var(--font-font-S, 18px);
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -48,11 +54,9 @@ p{
     font-family: var(--font-familly-body, Raleway);
     font-size: var(--font-font-XXS, 12px);
     font-weight: var(--weigth-regular, Regular);
-    line-height: var(--font-font-XXS, 12px); 
-    margin-top: 10px;
-    margin-bottom: 10px;
+    line-height: var(--font-font-XXS, 12px);
     margin-left: 20px;
-    margin-right: 20px; 
+    margin-right: 20px;
 }
 
 li{

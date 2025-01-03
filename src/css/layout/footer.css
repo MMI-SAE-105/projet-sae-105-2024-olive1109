@@ -33,6 +33,7 @@
 }
 
 .social__list{
+    color: var(--Blanc, #FFF);
     display: flex;
     align-items: center;
     gap: 5px;
@@ -42,4 +43,5 @@
 .footer__text{
     color: var(--blanc);
     padding: 10px 20px;
+    margin: 0px;
 }

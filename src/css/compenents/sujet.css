@@ -1,0 +1,64 @@
+.sujet__img{
+    width: 385px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sujet__video{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sujet__liens{
+    font-family: var(--font-familly-body);
+    font-size: var(--font-font-xs);
+    font-weight: var(--weigth-regular);
+    margin: 20px;
+    margin-top: 10px;
+    padding: 8px;
+}
+
+/* Carousel sur la page */
+.carousel {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.carousel__inner {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel__item {
+    min-width: 100%;
+    box-sizing: border-box;
+    align-content: center;
+}
+
+.carousel__item img {
+    width: 100%;
+    display: block;
+}
+
+.carousel__controls {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.carousel__control {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}

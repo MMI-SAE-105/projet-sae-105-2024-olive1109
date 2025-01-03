@@ -38,10 +38,18 @@
         <h3 class="sujet__subtitle">Une caméra des années 2000 retrouvée dans l’espace : Une découverte cinématographique inédite.</h3>
         <p class="sujet__text">Le 26 Octobre 2500, lors d’une mission de routine de nettoyage des débris spatiaux dans le système solaire externe, l’équipage du vaisseau de maintenance “Néo-Hubble VII” a fait une découverte extraordinaire : une caméra numérique datant des années 2000, parfaitement conservée dans le vide spatial.</p>
         <h3 class="sujet__subtitle">Chronologie de la caméra</h3>
-        <li class="sujet__chronology"><img src="/assets/img/camera/cam-passe-1.jpg" alt=""></li>
-        <li class="sujet__chronology"><img src="/assets/img/camera/cam-psse-2.jpg" alt=""></li>
-        <li class="sujet__chronology"><img src="/assets/img/camera/cam-futur-1.jpg" alt=""></li>
-        <li class="sujet__chronology"><img src="/assets/img/camera/cam-futur-2.jpg" alt=""></li>
+        <div class="carousel">
+            <div class="carousel__inner">
+                <div class="carousel__item"><img src="/assets/img/camera/cam-passe-1.jpg" alt=""></div>
+                <div class="carousel__item"><img src="/assets/img/camera/cam-psse-2.jpg" alt=""></div>
+                <div class="carousel__item"><img src="/assets/img/camera/cam-futur-1.jpg" alt=""></div>
+                <div class="carousel__item"><img src="/assets/img/camera/cam-futur-2.jpg" alt=""></div>
+            </div>
+            <div class="carousel__controls">
+                <button class="carousel__control" id="prev">‹</button>
+                <button class="carousel__control" id="next">›</button>
+            </div>
+        </div>
         <h3 class="sujet__subtitle">Un vestige d’une ère révolue</h3>
         <p class="sujet__text">Cette caméra est considérée comme primitive par les standards du 26è siècle, représente un trésor inestimable pour les historiens et les archéologues spatiaux. Son état de conservation remarquable, dû à l’absence d’atmosphère et de radiations nocives dans sa trajectoire, en fait un objet unique de la technologie du début du millénaire.</p>
         <h3 class="sujet__subtitle">Mystère et spéculation</h3>
@@ -55,7 +63,7 @@
 
         <nav class="liens">
             <h2 class="liens__title">Articles en liens :</h2>
-            <ul>
+            <ul class="sujet__liens">
                 <li class="liens__sujets"><a href="ready-player-one.html">Un remake de Ready Player One de Steven Spielberg ?</a></li>
                 <li class="liens__sujets"><a href="james-cameron.html">James Cameron, un réalisateur en avance sur son temps.</a></li>
                 <li class="liens__sujets"><a href="le-film-en-devenir.html">Le Film en Devenir de Gérard Leblanc : Un Ouvrage Visionnaire du 21e Siècle</a></li>
@@ -99,5 +107,6 @@
         </div>
         <p class="footer__text">Projet réalisé dans le cadre d’un exercice pédagogique au département MMi de Montbéliard.</p>
     </footer>
+    <script src="/src/js/script.js"></script>
 </body>
 </html>
