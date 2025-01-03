@@ -30,3 +30,4 @@ Soyez attentifs à l'ordre d'import :
 
 /* Components */
 @import "/src/css/compenents/articles.css";
+@import "/src/css/compenents/hero.css";

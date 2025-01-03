@@ -1,0 +1,22 @@
+.hero__list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0%;
+}
+
+.hero__link{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    background: var(--bleu);
+    width: 100%;
+    margin: 0%;
+    padding: 20px;
+}
