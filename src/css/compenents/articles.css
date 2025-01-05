@@ -75,3 +75,8 @@
     margin: 0px;
 }
 
+.liens__sujets{
+    font-family: var(--font-familly-body);
+    font-size: var(--font-font-xs);
+    font-weight: var(--weigth-regular);
+}
