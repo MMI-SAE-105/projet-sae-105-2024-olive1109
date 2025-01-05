@@ -33,31 +33,27 @@
 
     <main>
         <h1 class="title">S'inscrire</h1>
-        <h4 class="inscription__title">Pas abonné?</h4>
+        <h2 class="inscription__title">Pas abonné?</h2>
         <section class="inscription">
-            <h2 class="inscription__title">Inscris toi!</h2>
+            <h4 class="inscription__title">Inscris toi!</h4>
             <form class="inscription__form" action="/submit-form" method="post">
                 <div class="inscription__form-group">
-                    <label class="inscription__label" for="first-name">Prénom :</label>
+                    <label  for="first-name"><p class="inscription__label">Prénom</p></label>
                     <input class="inscription__input" type="text" id="first-name" name="first-name" required>
                 </div>
                 <div class="inscription__form-group">
-                    <label class="inscription__label" for="last-name">Nom :</label>
+                    <label  for="name" class="inscription__input" type="text" id="first-name" name="first-name" required></label><p class="inscription__label">Nom</p></label>
                     <input class="inscription__input" type="text" id="last-name" name="last-name" required>
                 </div>
                 <div class="inscription__form-group">
-                    <label class="inscription__label" for="email">Adresse mail :</label>
-                    <input class="inscription__input" type="email" id="email" name="email" required>
-                </div>
-                <div class="inscription__form-group">
-                    <label class="inscription__label" for="objets">Numéro de Puce :</label>
+                    <label  for="objets"><p class="inscription__label">Numéro de Puce</p></label>
                     <input class="inscription__input" type="text" id="objets" name="objets">
                 </div>
                 <div class="container">
                     <button class="inscription__button button" type="submit">
                         <span class="button__int int">
                             <img class="int__arrow" src="/assets/icônes/Vector.svg" alt="">
-                            <p class="int__text">s'inscrire</p>
+                            <p class="int__text">S'inscrire</p>
                         </span>
                     </button>
                 </div>

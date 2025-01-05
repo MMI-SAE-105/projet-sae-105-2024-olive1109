@@ -1,48 +1,43 @@
-.contact__form {
+.inscription__form{
     max-width: 600px;
     margin: 20px;
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.contact__form-group {
+.inscription__form-group{
     margin-bottom: 15px;
 }
 
-.contact__label {
+.inscription__label{
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
     margin-left: 0px;
+    color: var(--);
 }
 
-.contact__input,
-.contact__textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid var(--rouge);
-    background-color: var(--gris);
-    border-radius: 5px;
-    box-sizing: border-box;
+.inscription__input{
+    border: none;
+    border-bottom: 1px solid var(--gris);
+    width: 300px;
 }
 
-.contact__textarea {
-    resize: vertical;
-}
-
-.contact__button {
+.inscription__button{
     display: inline-block;
     padding: 10px 20px;
     background-color: var(--blanc);
-    border: 1px solid var(--rouge);
+    border: 1px solid var(--violet);
     border-radius: 2px;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
 }
 
-.contact__button:hover {
+.inscription__button:hover{
     background-color: var(--gris);
-    
 }
 
 .button__int {
@@ -62,4 +57,5 @@
 .container {
     display: flex;
     justify-content: center;
+    margin: 20px;
 }
