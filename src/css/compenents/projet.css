@@ -1,0 +1,9 @@
+.project{
+    margin: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.project__image{
+    width: 150px;
+}
