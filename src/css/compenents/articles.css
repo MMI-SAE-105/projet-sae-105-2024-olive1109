@@ -1,6 +1,6 @@
 .article{
     display: flex;
-    width: 390px;
+    max-width: 390px;
     flex-direction: column;
     margin: 20px;
     margin-top: 40px;
@@ -13,7 +13,6 @@
     gap: 10px;
     align-self: stretch;
     margin-top: 10px;
-    margin-left: 10px;
 }
 
 .article__img{
@@ -37,6 +36,8 @@
 
 .article__duo{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: first baseline;
     align-content: center;
     gap: 10px;
@@ -49,18 +50,17 @@
 .duo__img{
     width: 190px;
     height: auto;
-    margin: 20px;
     margin-bottom: 0px;
 }
 
 .duo__text{
     display: flex;
-    padding: 18px 21px;
     flex-direction: column;
     align-items: flex-end;
     gap: 10px;
-    align-self: stretch;
     width: 190px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .duo__title{
@@ -79,4 +79,9 @@
     font-family: var(--font-familly-body);
     font-size: var(--font-font-xs);
     font-weight: var(--weigth-regular);
+}
+
+.article__container{
+    display: flex;
+    justify-content: center;
 }
