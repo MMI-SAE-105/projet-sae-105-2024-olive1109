@@ -1,13 +1,13 @@
 .article{
     display: flex;
-    max-width: 390px;
+    max-width: 100%;
     flex-direction: column;
     margin: 20px;
     margin-top: 40px;
 }
 
 .article__text{
-    width: 380px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -16,17 +16,17 @@
 }
 
 .article__img{
-    width: 390px;
+    width: 100%;
     height: auto;
 }
 
 .article__title{
-    width: 380px;
+    width: 100%;
     margin: 0%;
 }
 
 .article__chapo{
-    width: 380px;
+    width: 100%;
     margin: 0%;
 }
 
@@ -44,11 +44,11 @@
 }
 
 .duo__article{
-    width: 195px;
+    width: 45%;
 }
 
 .duo__img{
-    width: 190px;
+    width: 100%;
     height: auto;
     margin-bottom: 0px;
 }
@@ -58,20 +58,20 @@
     flex-direction: column;
     align-items: flex-end;
     gap: 10px;
-    width: 190px;
+    width: 100%;
     margin-top: 10px;
     margin-bottom: 20px;
 }
 
 .duo__title{
     align-self: stretch;
-    width: 190px;;
+    width: 100%;
     margin: 0px;
 }
 
 .duo__chapo{
     align-self: stretch;
-    width: 190px;
+    width: 100%;
     margin: 0px;
 }
 
