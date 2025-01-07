@@ -6,4 +6,9 @@
 
 .project__image{
     width: 150px;
+    flex: 1;
+}
+
+.project__details{
+    flex: 1;
 }
